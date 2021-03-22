@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,500,600,700');
+
+@font-face{
+	font-family: "Barcelony" ;
+		src: url("../fonts/Barcelony.ttf")format("truetype");
+}
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #494949;
+}
+
+header{
+    background-color: #ED8096;
+	padding: 10px 0;
+}
+.section{
+	padding: 50px 0;
+	min-height: 300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: transparent!important;
+}
+
+#about img {
+	justify-content: center;
+	align-content: center;
+	margin-left: 20%;
+	border: 20px solid #EDA8A9;
+}
+
+#intro {
+	background-image: url("../img/img-fondo-hover.png");
+	background-position: top center;
+	background-size: cover;
+	padding: 15%;
+}
+
+#intro h1 {
+	color: #FFFFFF;
+	font-size: 150px;
+	text-align: center;
+	font-family: "Barcelony"
+}
+
+#about p {
+	margin-top: 30px;
+}
+
+#about h2 {
+	margin-top: 45px;
+}
+
+.list-icon i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	color: #ED8096;
+	display: inline-block;
+	text-align: start;
+	font-size: 24px;
+	margin-right: 7px;
+}
+
+#about {
+	background-color: #EFEFEF;
+}
+#servicesbranding p {
+	margin-top: 30px;
+}
+
+#servicesbranding h2 {
+	margin-top: 130px
+}
+
+#servicespackaging h2 {
+	margin-top: 140px;
+}
+
+#servicespackaging p {
+	margin-top: 30px;
+}
+
+#servicespackaging {
+	background-color: #EFEFEF;
+}
+
+#serviceseditorial p {
+	margin-top: 30px;
+	
+}
+
+#serviceseditorial h2 {
+	margin-top: 140px;
+	
+}
+
+#serviceseditorial {
+	background-color: #DCDCDC;
+}
+
+
+footer {
+	background-color: #ED8096;
+	padding: 10px 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+footer img {
+	margin-left: 10px;
+}
+
+.titulo {
+	font-family: "Barcelony";
+	font-size: 70px;
+	color: #ED8096;
+}
+
+#servicesilustracion a {
+	padding: 10px 0;
+	
+}
+
+#contact h2 {
+	margin-bottom: 70px;
+}
+
+#message {
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.btn-light {
+	background-color: #ED8096;
+	color: #FFFFFF;
+}
+
+#contact {
+	padding-top: 80px !important;
+	background-color: #EFEFEF;
+}
+
+#servicesilustracion h2 {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+#navbar a {
+	color: #FFFFFF;
+}
+
+
+
